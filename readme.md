@@ -121,3 +121,11 @@ The prerequisite for this to configure the aws controller policy as below :
 Creation of service account as below and can be verified with kubectl get sa -n kubesystem :
 
 <img width="2560" height="1062" alt="Screenshot 2026-02-27 at 10 06 35 pm" src="https://github.com/user-attachments/assets/bd8b96e7-193e-4b2b-95cf-de15b9a38f5e" />
+
+We are installing aws load balancer with helm charts as below :
+
+<img width="867" height="129" alt="Screenshot 2026-02-27 at 10 18 23 pm" src="https://github.com/user-attachments/assets/489799f4-fca7-4065-972e-60093d521df3" />
+
+
+
+<img width="1056" height="321" alt="Screenshot 2026-02-27 at 10 21 21 pm" src="https://github.com/user-attachments/assets/5c47bf0b-20e2-472f-993f-3e0d7d3d5698" />
