@@ -84,7 +84,9 @@ We can see that cluster is provisioned and ready.
 
 Cluster is created in private vpc and can be accessed within vpc only,to access the clster we need to create jump server.
 
+
 <img width="1797" height="180" alt="Screenshot 2026-02-27 at 9 13 26 pm" src="https://github.com/user-attachments/assets/36a36b73-352d-4dcb-bb7c-88fa099da9d4" />
+
 
 
 **Creating Jump Server:**
