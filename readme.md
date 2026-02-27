@@ -80,9 +80,7 @@ Once they have installed we need to configure the tools as well
 Now we will run the pipeline , with the help of aws credentials will provision the EKS cluster
 
 
-
-<img width="914" height="654" alt="Screenshot 2026-02-27 at 4 23 17 pm" src="https://github.com/user-attachments/assets/7ac12373-9511-4b74-8ab3-b0e9498a2d1e" />
-
+<img width="906" height="675" alt="Screenshot 2026-02-27 at 9 10 45 pm" src="https://github.com/user-attachments/assets/c3f8fa2a-8154-433f-a875-0c55b6ca87c9" />
 
 
 We can see that cluster is provisioned and ready.
