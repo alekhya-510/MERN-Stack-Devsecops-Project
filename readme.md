@@ -128,4 +128,10 @@ We are installing aws load balancer with helm charts as below :
 
 
 
+
 <img width="1056" height="321" alt="Screenshot 2026-02-27 at 10 21 21 pm" src="https://github.com/user-attachments/assets/5c47bf0b-20e2-472f-993f-3e0d7d3d5698" />
+
+
+
+<img width="772" height="114" alt="Screenshot 2026-02-27 at 10 22 33 pm" src="https://github.com/user-attachments/assets/13cd8028-d2f3-445f-a2bd-e0c7f91a94ff" />
+
