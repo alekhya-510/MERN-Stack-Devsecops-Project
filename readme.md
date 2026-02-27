@@ -155,3 +155,12 @@ We need to configure the argocd service from clsuterIP to loadbalancer , so that
 
 <img width="2560" height="1440" alt="Screenshot 2026-02-27 at 10 38 41 pm" src="https://github.com/user-attachments/assets/52988bc0-62e3-4721-8ea9-0b12000d7d5e" />
 
+
+
+Accessing argocd server default username is admin and initial password can be accessed from secrets can decoded as below:
+
+echo <password> | base64 --decode
+
+With the password we can login to the arocd server as below :
+
+<img width="2549" height="676" alt="Screenshot 2026-02-27 at 10 48 08 pm" src="https://github.com/user-attachments/assets/18c8e5c9-aac9-43de-9c52-4c8c9f86d5ef" />
