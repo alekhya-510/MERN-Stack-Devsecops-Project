@@ -109,5 +109,14 @@ the access key particulars ,so that cluster can be accessed.
 
 <img width="1115" height="154" alt="Screenshot 2026-02-27 at 9 42 01 pm" src="https://github.com/user-attachments/assets/30216689-341f-4cbd-a6d7-77b50adc1f66" />
 
-we can see that can be able to access the cluster with kubectl get nodes .
+We can see that can be able to access the cluster with kubectl get nodes .
 
+We want to create loadbalancer controller in kubernetes cluster for that we need a service account ,which can be created with eksctl as below:
+
+The prerequisite for this to configure the aws controller policy as below :
+
+<img width="1342" height="367" alt="Screenshot 2026-02-27 at 9 59 33 pm" src="https://github.com/user-attachments/assets/61c5c9f0-a7b4-4322-96b6-7c86218da784" />
+
+Creation of service account as below and can be verified with kubectl get sa -n kubesystem :
+
+<img width="2560" height="1062" alt="Screenshot 2026-02-27 at 10 06 35 pm" src="https://github.com/user-attachments/assets/bd8b96e7-193e-4b2b-95cf-de15b9a38f5e" />
