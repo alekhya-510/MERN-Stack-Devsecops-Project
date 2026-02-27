@@ -104,4 +104,10 @@ In the jump server we need to install AWS CLI , eksctl , kubectl ,helm .That ins
 <img width="2295" height="332" alt="Screenshot 2026-02-27 at 9 14 24 pm" src="https://github.com/user-attachments/assets/21b8fba9-c617-418b-9e23-c2e2908b5a37" />
 
 
+We need to connect to the cluster and set the context for that we need to configure the AWS Credentials on the jump server with aws configure , here we need to provide
+the access key particulars ,so that cluster can be accessed.
+
+<img width="1115" height="154" alt="Screenshot 2026-02-27 at 9 42 01 pm" src="https://github.com/user-attachments/assets/30216689-341f-4cbd-a6d7-77b50adc1f66" />
+
+we can see that can be able to access the cluster with kubectl get nodes .
 
