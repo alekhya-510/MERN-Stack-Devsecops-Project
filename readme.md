@@ -143,3 +143,14 @@ We are installing aws load balancer with helm charts as below :
 
 <img width="772" height="114" alt="Screenshot 2026-02-27 at 10 22 33 pm" src="https://github.com/user-attachments/assets/13cd8028-d2f3-445f-a2bd-e0c7f91a94ff" />
 
+Installing ArgoCd operator as below :
+
+
+<img width="1610" height="75" alt="Screenshot 2026-02-27 at 10 32 07 pm" src="https://github.com/user-attachments/assets/e80ac6a6-1931-4627-b5da-ead92cb9a078" />
+
+
+We need to configure the argocd service from clsuterIP to loadbalancer , so that we can access the argocd server
+
+
+<img width="2560" height="1440" alt="Screenshot 2026-02-27 at 10 38 41 pm" src="https://github.com/user-attachments/assets/52988bc0-62e3-4721-8ea9-0b12000d7d5e" />
+
