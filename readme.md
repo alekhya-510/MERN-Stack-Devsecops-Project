@@ -164,3 +164,25 @@ echo <password> | base64 --decode
 With the password we can login to the arocd server as below :
 
 <img width="2549" height="676" alt="Screenshot 2026-02-27 at 10 48 08 pm" src="https://github.com/user-attachments/assets/18c8e5c9-aac9-43de-9c52-4c8c9f86d5ef" />
+
+
+Once we configured argocd , next step is to configure the sonarqube , sonarqube can be accessed through port 9000 as below 
+
+<img width="2344" height="815" alt="Screenshot 2026-02-27 at 10 55 10 pm" src="https://github.com/user-attachments/assets/e19f8e15-47e8-4f6c-b5a7-1cefa0a7522a" />
+
+In CI/CD pipeline we will analysis the code , for that jenkins should be integrated with sonarqube and token ,webhooks , projects to be created . 
+
+In jenkins we need to configure the sonar-token as secret text and few variables to configured as scerets instead of hardcoding them.
+
+To push the docker images we will be using aws ecr private registries , since there are 2 we create as front end and backend respositories.These can be referred as secret variables.
+
+Credentials for githb configured in jenkins.Once we configured everything in jenkins such as tools and passwords next step is CI/CD pipeline. 
+
+
+**b.Continous Integration and Deploying the application through ArgoCD**
+
+Since the application is MERN stack front-end written in nodejs and business logic in react.js using express js seperate pipelines for each logic.
+
+
+
+
