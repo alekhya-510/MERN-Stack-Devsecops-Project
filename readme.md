@@ -115,7 +115,8 @@ We want to create loadbalancer controller in kubernetes cluster for that we need
 
 The prerequisite for this to configure the aws controller policy as below :
 
-<img width="1342" height="367" alt="Screenshot 2026-02-27 at 9 59 33 pm" src="https://github.com/user-attachments/assets/61c5c9f0-a7b4-4322-96b6-7c86218da784" />
+<img width="1343" height="136" alt="Screenshot 2026-02-27 at 10 08 56 pm" src="https://github.com/user-attachments/assets/c2c94238-6461-44f3-ab92-34e6a49ae007" />
+
 
 Creation of service account as below and can be verified with kubectl get sa -n kubesystem :
 
