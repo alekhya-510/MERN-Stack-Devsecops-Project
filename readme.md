@@ -197,6 +197,8 @@ The image will be pushed to AWS ECR and kubernetes deployment file will be updat
 **We have implemented backend pipeline as below :**
 
 
+<img width="1981" height="737" alt="Screenshot 2026-02-28 at 1 58 31 am" src="https://github.com/user-attachments/assets/2b046f0e-87d1-4fb5-adca-c025aa00098c" />
+
 
 The image will be pushed to AWS ECR and kubernetes deployment file will be updated with latest build number :
 
