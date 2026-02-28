@@ -183,7 +183,7 @@ Credentials for githb configured in jenkins.Once we configured everything in jen
 
 Since the application is MERN stack front-end written in nodejs and business logic in react.js using express js seperate pipelines for each logic.
 
-We have implemented frontend pipeline as below :
+**We have implemented frontend pipeline as below :**
 
 
 <img width="1808" height="560" alt="Screenshot 2026-02-28 at 12 42 33 am" src="https://github.com/user-attachments/assets/dc84a442-ec47-4782-a89f-8ec04cde07ab" />
@@ -193,6 +193,17 @@ The image will be pushed to AWS ECR and kubernetes deployment file will be updat
 
 <img width="2210" height="373" alt="Screenshot 2026-02-28 at 12 58 29 am" src="https://github.com/user-attachments/assets/4a7e7316-afa7-4eee-8cb1-61c5e1830936" />
 
+
+**We have implemented backend pipeline as below :**
+
+
+
+The image will be pushed to AWS ECR and kubernetes deployment file will be updated with latest build number :
+
+
+Once the both pipelines completed successfully , in sonarqube we can see the report as below:
+
+<img width="2527" height="658" alt="Screenshot 2026-02-28 at 1 22 32 am" src="https://github.com/user-attachments/assets/b557a57b-dfda-417b-8c03-6e4e8f316b56" />
 
 
 
