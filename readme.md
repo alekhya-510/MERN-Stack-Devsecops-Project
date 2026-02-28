@@ -189,6 +189,10 @@ We have implemented frontend pipeline as below :
 <img width="1808" height="560" alt="Screenshot 2026-02-28 at 12 42 33 am" src="https://github.com/user-attachments/assets/dc84a442-ec47-4782-a89f-8ec04cde07ab" />
 
 
+The image will be pushed to AWS ECR and kubernetes deployment file will be updated with latest build number :
+
+<img width="2210" height="373" alt="Screenshot 2026-02-28 at 12 58 29 am" src="https://github.com/user-attachments/assets/4a7e7316-afa7-4eee-8cb1-61c5e1830936" />
+
 
 
 
