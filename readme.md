@@ -202,10 +202,14 @@ The image will be pushed to AWS ECR and kubernetes deployment file will be updat
 
 The image will be pushed to AWS ECR and kubernetes deployment file will be updated with latest build number :
 
+<img width="2240" height="345" alt="Screenshot 2026-02-28 at 2 03 20 am" src="https://github.com/user-attachments/assets/f5757464-810f-43e6-9396-a9c2d76c47cd" />
+
 
 Once the both pipelines completed successfully , in sonarqube we can see the report as below:
 
 <img width="2527" height="658" alt="Screenshot 2026-02-28 at 1 22 32 am" src="https://github.com/user-attachments/assets/b557a57b-dfda-417b-8c03-6e4e8f316b56" />
+
+
 
 
 
