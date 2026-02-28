@@ -207,10 +207,11 @@ The image will be pushed to AWS ECR and kubernetes deployment file will be updat
 
 Once the both pipelines completed successfully , in sonarqube we can see the report as below:
 
+
 <img width="2527" height="658" alt="Screenshot 2026-02-28 at 1 22 32 am" src="https://github.com/user-attachments/assets/b557a57b-dfda-417b-8c03-6e4e8f316b56" />
 
 
 
-
+The next step is to configure deployment  in Argo CD :
 
 
