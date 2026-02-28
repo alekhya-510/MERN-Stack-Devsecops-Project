@@ -183,6 +183,13 @@ Credentials for githb configured in jenkins.Once we configured everything in jen
 
 Since the application is MERN stack front-end written in nodejs and business logic in react.js using express js seperate pipelines for each logic.
 
+We have implemented frontend pipeline as below :
+
+
+<img width="1808" height="560" alt="Screenshot 2026-02-28 at 12 42 33 am" src="https://github.com/user-attachments/assets/dc84a442-ec47-4782-a89f-8ec04cde07ab" />
+
+
+
 
 
 
