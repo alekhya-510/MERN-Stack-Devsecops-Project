@@ -251,8 +251,13 @@ We can see that all resources created in the three-tier namespace
 
 
 We have our custom domain with that we need to create a hosted zone and map the record to created kubernetes loadbalancer.
+**It is seen that domain is mapped to aws loadbalancer** :
 
-if we navigate to our domain we can see that our we can able to access the application Hurray !!!!!
+
+
+<img width="1299" height="120" alt="Screenshot 2026-03-05 at 7 54 51 pm" src="https://github.com/user-attachments/assets/c1826f43-f39f-4830-83b5-8fe760d2fbb1" />
+
+**if we navigate to our domain we can see that our we can able to access the application Hurray !!!!!**
 
 
 <img width="1728" height="1087" alt="Screenshot 2026-03-05 at 7 47 05 pm" src="https://github.com/user-attachments/assets/ed16cd11-4968-4973-baac-1138638b497b" />
