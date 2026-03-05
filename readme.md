@@ -269,3 +269,40 @@ We have our custom domain with that we need to create a hosted zone and map the 
 
 <img width="1452" height="140" alt="Screenshot 2026-03-05 at 7 52 30 pm" src="https://github.com/user-attachments/assets/e3bc4ed2-2b2f-41ec-957d-0802593d082c" />
 
+
+**Configuring Monitoring :**
+We will use prometheus and grafana for monitoring and observability as below :
+
+Prometheus installed using helm charts
+
+helm repo add stable https://charts.helm.sh/stable
+helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+helm install prometheus prometheus-community/prometheus
+
+**Prometheus can be accessed by exposing prometheus service to loadbalancer:**
+<img width="1724" height="1081" alt="Screenshot 2026-03-05 at 10 39 22 pm" src="https://github.com/user-attachments/assets/421322d5-e463-441e-bcb9-8ca58e3a66f7" />
+
+
+
+
+
+
+**Configuring Observability :**
+helm repo add grafana https://grafana.github.io/helm-charts
+helm repo update
+helm install grafana grafana/grafana
+
+<img width="1470" height="860" alt="Screenshot 2026-03-05 at 10 47 10 pm" src="https://github.com/user-attachments/assets/c027f77e-c51d-45af-9c17-00809888b492" />
+
+
+We have configured the prometheus in grafana dashboard by adding loadbalancer dns of prometheus service
+
+<img width="1727" height="1007" alt="Screenshot 2026-03-05 at 10 53 08 pm" src="https://github.com/user-attachments/assets/70694ce6-1d68-4442-9824-2929e8fd3733" />
+
+
+
+**We can access the dashboards as below:**
+<img width="1728" height="1117" alt="Screenshot 2026-03-05 at 10 55 41 pm" src="https://github.com/user-attachments/assets/f8e07142-8dea-4ac6-85a8-9c6a1ae4dc61" />
+
+
+The MERN stack end-to-end devsecops and monitoring & obersvabilty project completed.
