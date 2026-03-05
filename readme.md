@@ -27,6 +27,13 @@ Once the instance is up and running we need to connect with SSM Sessions Manager
 <img width="1703" height="334" alt="Screenshot 2026-03-05 at 10 12 39 am" src="https://github.com/user-attachments/assets/a006b440-a532-4c8c-ba26-5e0042e375df" />
 
 
+
+
+
+
+
+
+
 **Jenkins login : <ip-aadress>:8080**
 
 <img width="1728" height="600" alt="Screenshot 2026-03-05 at 10 16 23 am" src="https://github.com/user-attachments/assets/c748a8fa-5676-4434-9bfc-ca21c7ee2406" />
