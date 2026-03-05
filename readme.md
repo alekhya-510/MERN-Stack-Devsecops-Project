@@ -3,11 +3,11 @@
 In this project we will deploy the MERN stack in kubernetes cluster through Argo CD deployment and monitoring through prometheus and grafana
 
 The project is mainly divided into 3 stages 
-1. Infrstructure provision through terraform
-2. Continous Integration and Deploying the application through ArgoCD
+1. Infrastructure provision through terraform
+2. Continious Integration and Deploying the application through ArgoCD
 3. Monitoring the application
 
-**a. Automating Infrstructure provision through terraform and jenkins pipeline :**
+**a. Automating Infrastructure provision through terraform and jenkins pipeline :**
 
 In this step we need to provision the AWS EKS cluster through terraform and terraform automated by writing the jenkins pipeline.For that will create a Virtual Server as follows.
 
