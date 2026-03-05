@@ -60,7 +60,8 @@ Once the instance is up and running we need to connect with SSM Sessions Manager
 
 
 
-We need to install the required plugins for pipeline : terraform , aws-credentials , 
+**We need to install the required plugins for pipeline :**
+Terraform , aws-credentials , docker, pipeline:AWS , pipeline-stageview , sonarqube
 
 
 
@@ -71,6 +72,7 @@ Once they have installed we need to configure the tools as well
 
 
 
+<img width="1454" height="528" alt="Screenshot 2026-03-05 at 10 33 18 am" src="https://github.com/user-attachments/assets/d2705b98-fadf-415e-b974-9592ea77ddef" />
 
 
 
@@ -193,7 +195,7 @@ Credentials for githb configured in jenkins.Once we configured everything in jen
 
 **b.Continous Integration and Deploying the application through ArgoCD**
 
-Since the application is MERN stack front-end written in nodejs and business logic in react.js using express js seperate pipelines for each logic.
+Since the application is MERN stack front-end written in nodejs and business logic in react.js using express js ,seperate pipelines for each logic.
 
 **We have implemented frontend pipeline as below :**
 
