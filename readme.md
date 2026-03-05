@@ -228,4 +228,11 @@ Once the both pipelines completed successfully , in sonarqube we can see the rep
 
 The next step is to configure deployment  in Argo CD :
 
+We have created seperate deployments for database,front-end,back-end and ingress 
+
+
+<img width="1728" height="962" alt="Screenshot 2026-03-05 at 5 40 23 pm" src="https://github.com/user-attachments/assets/59282e82-40e3-4770-b029-64f6f9781c90" />
+
+
+
 
