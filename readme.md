@@ -214,6 +214,8 @@ The image will be pushed to AWS ECR and kubernetes deployment file will be updat
 <img width="1981" height="737" alt="Screenshot 2026-02-28 at 1 58 31 am" src="https://github.com/user-attachments/assets/2b046f0e-87d1-4fb5-adca-c025aa00098c" />
 
 
+
+
 The image will be pushed to AWS ECR and kubernetes deployment file will be updated with latest build number :
 
 <img width="2240" height="345" alt="Screenshot 2026-02-28 at 2 03 20 am" src="https://github.com/user-attachments/assets/f5757464-810f-43e6-9396-a9c2d76c47cd" />
@@ -235,4 +237,30 @@ We have created seperate deployments for database,front-end,back-end and ingress
 
 
 
+
+
+
+
+We can see that all resources created in the three-tier namespace
+<img width="923" height="484" alt="Screenshot 2026-03-05 at 7 33 30 pm" src="https://github.com/user-attachments/assets/3d0e29ac-d5c9-4b0e-9050-e891260a3ffb" />
+
+
+
+
+
+
+
+We have our custom domain with that we need to create a hosted zone and map the record to created kubernetes loadbalancer.
+
+if we navigate to our domain we can see that our we can able to access the application Hurray !!!!!
+
+
+<img width="1728" height="1087" alt="Screenshot 2026-03-05 at 7 47 05 pm" src="https://github.com/user-attachments/assets/ed16cd11-4968-4973-baac-1138638b497b" />
+
+
+**If we try to access the backend as well we can access as below :**
+
+
+
+<img width="1452" height="140" alt="Screenshot 2026-03-05 at 7 52 30 pm" src="https://github.com/user-attachments/assets/e3bc4ed2-2b2f-41ec-957d-0802593d082c" />
 
