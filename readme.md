@@ -186,7 +186,7 @@ Once we configured argocd , next step is to configure the sonarqube , sonarqube 
 
 In CI/CD pipeline we will analysis the code , for that jenkins should be integrated with sonarqube and token ,webhooks , projects to be created . 
 
-In jenkins we need to configure the sonar-token as secret text and few variables to configured as scerets instead of hardcoding them.
+In jenkins we need to configure the sonar-token as secret text and few variables such as aws account-id,project names to configured as scerets instead of hardcoding them.
 
 To push the docker images we will be using aws ecr private registries , since there are 2 we create as front end and backend respositories.These can be referred as secret variables.
 
